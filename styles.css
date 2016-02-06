@@ -1,3 +1,35 @@
 body {
   background-color: lightblue;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+  transform: rotate(90deg);
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Patua One', cursive;
+}
+
+header h1,
+header h3,
+nav,
+header nav h4 {
+  display: inline-block;
+}
+
+nav {
+  position: absolute;
+  right: 5%;
+  top: 25px;
+}
+
+nav h4 {
+  margin-left: 30px;
+}
+
+.about, .projects, .contact {
+  display: none;
 }
