@@ -1,35 +1,156 @@
 body {
-  background-color: lightblue;
+  background: url('http://www.pixeden.com/media/k2/galleries/131/001-subtle-light-pattern-background-texture.jpg');
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-img {
+.selfie {
   transform: rotate(90deg);
   width: 150px;
-  border-radius: 50%;
+  border-radius: 10px;
+  margin: 2%;
+  float: right;
 }
 
-h1 {
-  font-family: 'Patua One', cursive;
+@media screen and (max-width: 1000px) {
+  .selfie{
+    margin-top: 30px;
+  }
+
+  #about p{
+
+  }
 }
 
-header h1,
-header h3,
-nav,
-header nav h4 {
+#about, #projects {
+  background-color: rgba(224,0,0,0.8);
+  width: 60%;
+  margin: 5% auto;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+
+#projects {
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.each-project {
+  margin: 4%;
+  padding: 1%;
   display: inline-block;
+  width: 25%;
 }
 
-nav {
-  position: absolute;
-  right: 5%;
-  top: 25px;
+@media screen and (max-width: 920px) {
+  #projects {
+    text-align: left;
+    width: 60%;
+    margin-bottom: 30%;
+  }
+  .each-project {
+    display: block;
+    width: 100%;
+  }
 }
 
-nav h4 {
-  margin-left: 30px;
+.uplift, .restaurant-app{
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 2px;
 }
 
-.about, .projects, .contact {
-  display: none;
+
+/********** FOOTER **********/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #E00000;
+  width: 100%;
+  color: whitesmoke;
+  padding: 1%;
+  text-align: center;
+}
+
+footer i {
+  padding: 1%;
+}
+
+footer a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 0 2%;
+}
+
+@media screen and (max-width: 650px) {
+
+  footer a:nth-child(even) {
+    display: block;
+  }
+
+
+}
+
+/********** HEADER **********/
+h1, h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  color: #E00000;
+  text-align: center;
+}
+
+.red h1 {
+  font-size: 3.2em;
+  color: white;
+  margin: -15px;
+  padding: 0 5em 0 0;
+}
+
+.white h1 {
+  color: #E00000;
+  margin: -28px;
+  padding: 0 0 22px 5em;
+  font-size: 2.8em;
+}
+
+
+.red {
+  background-color: #E00000;
+  padding: 10px 10px 0 10px;
+  width: 100%;
+}
+
+.white {
+  background-color: white;
+  padding: 12px 10px 10px 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .red h1 {
+    font-size: 2.4em;
+    margin: -11px;
+  }
+
+  .white h1 {
+    font-size: 2.2em;
+    margin: -25px;
+    padding-bottom: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .red h1 {
+    font-size: 2em;
+    margin: -10px;
+  }
+
+  .white h1 {
+    font-size: 1.8em;
+    margin: -23px;
+    padding-bottom: 18px;
+  }
 }

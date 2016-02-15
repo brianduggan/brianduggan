@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Brian Duggan | Web Developer</title>
+  <title>Brian Duggan | Full-Stack Web Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Patua+One|Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Patua+One|Roboto+Condensed|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="./styles.css">
   <script src="./jquery-1.11.3.js" charset="utf-8"></script>
   <script src="./scripts.js" charset="utf-8"></script>
@@ -12,57 +13,52 @@
 <body>
 
   <header>
-    <h1>Brian Duggan</h1>
-    <h3>Web Developer</h3>
-    <nav>
-      <h4 id="about-link">About</h4>
-      <h4 id="portfolio-link">Portfolio</h4>
-      <h4 id="contact-link">Contact</h4>
-    </nav>
+    <div class='red'>
+      <h1> BRIAN DUGGAN </h1>
+    </div>
+    <div class='white'>
+      <h1> WEB DEVELOPER </h1>
+    </div>
   </header>
 
-  <div class="about">
+  <div id="about">
+    <!-- <img src="./face.jpg" alt="brian duggan picture" class="selfie"> -->
     <h3>About</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur facere, libero hic amet rerum mollitia alias, assumenda ad recusandae minus suscipit ipsam praesentium molestias! Quae quod deserunt ab aliquam, repudiandae?</p>
+    <p>Hey there! I'm Brian. I was born and raised in Warwick, Rhode Island before moving to Boston for university. Since then I have spent time managing various bookstores in Boston, New Haven, and New York City. I currently live in Brooklyn, NY where for the past six months I have devoted my life to all things HTML, CSS, JavaScript, and Ruby. When I'm not busy coding, I enjoy reading all sorts of graphic novels, playing board games, learning 日本語, and spending time with my girlfriend, Christina, and our cat, Charlie.</p>
   </div>
 
-  <div class="projects">
-    <h4>Portfolio</h4>
-    <div>
+  <div id="projects">
+    <h4>Projects</h4>
+    <div class="project-container">
+      <div class="each-project">
+        <a href="https://whispering-brook-4229.herokuapp.com/">Unison</a>
+        <a href="https://github.com/brianduggan/RESTaurantApp"><i class="fa fa-github"></i></a><br>
+        <img src="restaurant.png" alt="restaurantapp" class="restaurant-app">
+      </div>
       <div class="each-project">
         <a href="https://whispering-brook-4229.herokuapp.com/">RESTaurant App</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, labore officiis illo, cupiditate doloribus accusamus veniam et eveniet modi, soluta tempore ut est quod quis dolores, possimus aspernatur eius. Perspiciatis.</p>
-        <i class="fa fa-github"></i><a href="https://github.com/brianduggan/RESTaurantApp">GitHub</a>
+        <a href="https://github.com/brianduggan/RESTaurantApp"><i class="fa fa-github"></i></a><br>
+        <img src="restaurant.png" alt="restaurantapp" class="restaurant-app">
       </div>
       <div class="each-project">
         <a href="https://safe-chamber-85748.herokuapp.com/">Uplift</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, labore officiis illo, cupiditate doloribus accusamus veniam et eveniet modi, soluta tempore ut est quod quis dolores, possimus aspernatur eius. Perspiciatis.</p>
-        <i class="fa fa-github"></i><a href="https://github.com/brianduggan/uplift">GitHub</a>
+        <a href="https://github.com/brianduggan/uplift"><i class="fa fa-github"></i></a><br>
+        <img src="uplift.png" alt="uplift main screen" class="uplift">
       </div>
       <div class="each-project">
         <a href="https://serene-harbor-61321.herokuapp.com/">Otter Code</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, labore officiis illo, cupiditate doloribus accusamus veniam et eveniet modi, soluta tempore ut est quod quis dolores, possimus aspernatur eius. Perspiciatis.</p>
-        <i class="fa fa-github"></i><a href="https://github.com/brianduggan/OtterCode">GitHub</a>
-      </div>
-      <div class="each-project">
-        <a href="https://rocky-island-91531.herokuapp.com/">Unison Prototype</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, labore officiis illo, cupiditate doloribus accusamus veniam et eveniet modi, soluta tempore ut est quod quis dolores, possimus aspernatur eius. Perspiciatis.</p>
-        <i class="fa fa-github"></i><a href="https://github.com/brianduggan/UnisonRailsAPI">GitHub</a>
+        <a href="https://github.com/brianduggan/OtterCode"><i class="fa fa-github"></i></a><br>
+        <img src="restaurant.png" alt="restaurantapp" class="restaurant-app">
       </div>
     </div>
   </div>
 
-  <div class="contact">
-    <img src="./face.jpg" alt="">
-    <h4>Reach me on...</h4>
-    <ul>
-      <li><a href="http://www.linkedin.com/in/brianeduggan"><i class="fa fa-linkedin-square"></i>Linked In</a></li>
-      <li><a href="#"><i class="fa fa-file-word-o"></i>Resume</a></li>
-      <li><a href="http://www.github.com/brianduggan"><i class="fa fa-github"></i>Github</a></li>
-      <li><a href="mailto:brian.e.duggan@icloud.com"><i class="fa fa-envelope-square"></i>E-Mail</a></li>
-    </ul>
-  </div>
-
+  <footer>
+    <a href="http://www.linkedin.com/in/brianeduggan"><i class="fa fa-linkedin-square fa-lg"></i>brianEduggan</a>
+    <a href="https://docs.google.com/document/d/1GKe4etbj10J6pVVym2d3u-wPBEczGFOZ2Wt6Q05ue3U/pub"><i class="fa fa-file-word-o fa-lg"></i>Resume</a>
+    <a href="http://www.github.com/brianduggan"><i class="fa fa-github fa-lg"></i>brianduggan</a>
+    <a href="mailto:brian.e.duggan@icloud.com"><i class="fa fa-envelope-square fa-lg"></i>brian.e.duggan@icloud.com</a>
+  </footer>
 
 </body>
 </html>
