@@ -3,22 +3,8 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.selfie {
-  transform: rotate(90deg);
-  width: 150px;
-  border-radius: 10px;
-  margin: 2%;
-  float: right;
-}
-
-@media screen and (max-width: 1000px) {
-  .selfie{
-    margin-top: 30px;
-  }
-
-  #about p{
-
-  }
+header {
+  width: 100%;
 }
 
 #about, #projects {
@@ -42,17 +28,18 @@ body {
   width: 25%;
 }
 
-/*@media screen and (max-width: 920px) {
+@media screen and (max-width: 920px) {
   #projects {
     width: 60%;
     margin-bottom: 30%;
     text-align: center;
   }
+  
   .each-project {
     display: block;
     width: 100%;
   }
-}*/
+}
 
 .uplift, .restaurant-app, .otter-code{
   width: 200px;
