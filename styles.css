@@ -144,12 +144,12 @@ header {
 @media screen and (max-width: 500px) {
   .red h1 {
     font-size: 1.7em;
-    margin: -10px;
+    margin: -9px;
   }
 
   .white h1 {
     font-size: 1.5em;
-    margin: -23px;
+    margin: -22px;
     padding-bottom: 18px;
   }
 }
