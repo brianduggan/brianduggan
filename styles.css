@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Droid+Sans|Noto+Sans|Oxygen|Nunito:300|Muli);
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: url('http://www.pixeden.com/media/k2/galleries/131/001-subtle-light-pattern-background-texture.jpg');
   font-family: 'Oxygen', sans-serif;
