@@ -213,14 +213,16 @@ header {
 
 @media screen and (max-width: 500px) {
   .red h1 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin: -8px;
+    padding-left: 0;
   }
 
   .white h1 {
-    font-size: 1.3em;
-    margin: -19px;
+    font-size: 1.5em;
+    margin: -21px;
     padding-bottom: 18px;
+    padding-right: 0;
   }
 }
 
@@ -232,7 +234,7 @@ header {
 
 @media screen and (max-width: 580px) {
   #about h1{
-    font-size: 1.7em;
+    font-size: 3rem;
     position: static;
     text-align: center;
   }
