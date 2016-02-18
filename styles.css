@@ -12,12 +12,13 @@ body {
 #about, #projects {
   background-color: #3F88C5;
   width: 60%;
-  margin: 3% auto;
+  margin: 5% auto;
   padding: 1%;
   text-align: center;
   -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
   box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+  border-radius: 1%;
 }
 
 #about h1 {
@@ -53,7 +54,7 @@ body {
 
 #about p {
   position: relative;
-  margin: 1%;
+  margin: 4%;
   top: -1.5rem;
   z-index: 2;
 }
@@ -190,6 +191,11 @@ header {
     width: 100%;
   }
 
+  #about {
+    width: 90%;
+    padding: 2%;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -205,6 +211,19 @@ header {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .red h1 {
+    font-size: 1.4em;
+    margin: -8px;
+  }
+
+  .white h1 {
+    font-size: 1.3em;
+    margin: -19px;
+    padding-bottom: 18px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   #about h1{
     left: -100px;
@@ -213,11 +232,12 @@ header {
 
 @media screen and (max-width: 580px) {
   #about h1{
-    font-size: 1.6em;
-    left: -10px;
+    font-size: 1.7em;
+    position: static;
+    text-align: center;
   }
 
   #about p {
-    top: -0.9rem;
+    position: static;
   }
 }
