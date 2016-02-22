@@ -198,18 +198,6 @@ header {
 
 }
 
-@media screen and (max-width: 500px) {
-  .red h1 {
-    font-size: 1.7em;
-    margin: -9px;
-  }
-
-  .white h1 {
-    font-size: 1.5em;
-    margin: -22px;
-    padding-bottom: 18px;
-  }
-}
 
 @media screen and (max-width: 500px) {
   .red h1 {
@@ -221,7 +209,8 @@ header {
   .white h1 {
     font-size: 1.5em;
     margin: -21px;
-    margin-left: -200px;
+    margin-left: -100px;
+    margin-right: 0;
     padding-bottom: 18px;
     padding-right: 0em;
   }
